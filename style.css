@@ -1,0 +1,62 @@
+body {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  background-color: #1a202e;
+}
+
+.content {
+  margin: 0 10pt;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background-image: url(images/background.svg);
+  background-size: cover;
+  opacity: 0.25;
+}
+
+h1,
+h2,
+h3 {
+  text-shadow: 2pt 2pt 0 #ff3b30;
+}
+
+.header {
+  margin-top: 12pt;
+}
+
+.header vstack * {
+  margin: 0;
+}
+
+.header vstack p {
+  opacity: 0.75;
+}
+
+a.signup {
+  font-size: 12pt;
+  font-family: inherit;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #ff3b30;
+  border: none;
+  padding: 4pt 8pt;
+  box-shadow: 2pt 2pt 0 white;
+}
+
+.hero {
+  text-align: center;
+  margin: 32pt 0;
+}
+
+a {
+  color: #ff3b30;
+  text-decoration: underline rgba(255, 255, 255, 80%);
+  text-underline-offset: 1pt;
+}
