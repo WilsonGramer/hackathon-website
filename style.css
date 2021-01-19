@@ -5,7 +5,9 @@ body {
 }
 
 .content {
-  margin: 0 10pt;
+  margin: 0 auto;
+  padding: 0 10pt;
+  max-width: 768pt;
 }
 
 .background {
